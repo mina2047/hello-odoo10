@@ -7,7 +7,7 @@ Installing Odoo 10 with one command.
 Install [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/install/) yourself, then run:
 
 ``` bash
-curl -s https://raw.githubusercontent.com/mina2047/Hello-odoo10/master/run.sh | sudo bash -s odoo-one 10010 20010
+curl -s https://raw.githubusercontent.com/mina2047/Hello-odoo10/master/run.sh | sudo bash -s odoo-ten 10010 20010
 ```
 
 to set up first Odoo instance @ `localhost:10010` (default master password: `mostafa@1234`)
@@ -21,7 +21,7 @@ curl -s https://raw.githubusercontent.com/mina2047/Hello-odoo10/master/run.sh | 
 to set up another Odoo instance @ `localhost:11010` (default master password: `mostafa@1234`)
 
 Some arguments:
-* First argument (**odoo10-one**): Odoo deploy folder
+* First argument (**odoo10-ten**): Odoo deploy folder
 * Second argument (**10010**): Odoo port
 * Third argument (**20010**): live chat port
 
